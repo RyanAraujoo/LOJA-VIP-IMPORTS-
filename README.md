@@ -13,7 +13,16 @@
 </div>
 <h4>Mudanças a fazer:</h4>
 <ul>
-  <li>scroll liso no href da pagina</li>
-  <li>arquivo css mais fácil de ser lido</li>
-  <li>extensões da pagina <strong>produtos</strong></li>
+  <li>Scroll liso no href'sobre' da pagina</li>
+  <li>Extensões da pagina <strong>produtos</strong></li>
+  <p>Adicionei possíveis novos produtos</p>
+  <li>Adicionar Responsividade ao página web</li>
+  <li>Adicionar possíveis animações e layout novo para a página web</li>
+  <li>fazer interações javascript</li>
+  </ul>
+ <h4>Mudanças feitas:</h4>
+ <ul>
+  <li>Css mais fácil de ser lido e compreendido</li>
+  <li>Html mais semântico e didático</strong></li>
+  <li>btn para acesso rápido a contato ao scroll da página</li>
   </ul>
