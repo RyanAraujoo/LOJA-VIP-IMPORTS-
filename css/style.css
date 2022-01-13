@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:ital,wght@0,500;1,100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-image: url(../assets/imagem\ principal.jpg);
+  font-weight: 900;
+  background-size: cover;
+  height: 100vh;
+  background-position-y: -200px;
+}
+
+navbar,
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 25px;
+  padding-top: 25px;
+}
+.header-logo {
+  width: 50px;
+}
+header nav ul li,
+header nav ul li a {
+  margin-left: 15px;
+  text-decoration: none;
+  list-style-type: none;
+  color: #000000;
+  font-weight: 900;
+}
+header nav ul li a:hover {
+  color: rgb(255, 123, 0);
+  font-weight: 900;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+main article h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #000000;
+  padding-left: 100px;
+  font-family: "MonteCarlo", cursive;
+}
+article h1 span {
+  color: rgb(250, 196, 18);
+  font-size: 120px;
+  font-family: "MonteCarlo", cursive;
+}
+.header-flex-form {
+  background-color: #000000b7;
+  margin-right: 75px;
+  margin-top: 25px;
+  padding: 30px;
+  -webkit-box-shadow: 5px 5px 0px 0px #c9ed28, 10px 10px 0px 0px #ffda5f,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 0px 0px #edea28, 10px 10px 0px 0px #fcff5f,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+form h3 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+form p {
+  font-weight: 800;
+}
+form input {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+form button {
+  padding: 15px;
+  background-color: rgb(255, 230, 0);
+  width: 100%;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+section article {
+  padding: 25px;
+  width: 300px;
+}
+section article ul li {
+  list-style-type: square;
+}
+.primary-section-nossos-servicos {
+  background-color: rgb(255, 238, 0);
+  text-align: center;
+  padding: 15px;
+}
+.secondary-section-nossos-servicos {
+  background-color: rgba(255, 238, 0, 0.5);
+  text-align: center;
+  padding: 40px;
+}
+footer {
+  background-color: rgb(255, 238, 0);
+}
+footer > h1 {
+  padding-top: 50px;
+}
+footer p {
+  line-height: 25px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+}

@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vip Imports</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
     <header>
         <navbar>
-            <img src="./assets/logo.png" alt="nome-vip-imports">
+            <a href="/index.html"><img class="header-logo" src="./assets/logo.png" alt="nome-vip-imports" /></a>
+
             <nav>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Produtos</li>
-                    <li>Sobre</li>
-                    <li>Contato</li>
+                    <li><a href="/pages/Produtos.html">Produtos</a></li>
+                    <li><a href="#footer-component">Sobre</a></li>
+                    <li><a href="/pages/Contato.html">Contato</a></li>
                 </ul>
             </nav>
         </navbar>
-        <article>
-            <h1><span>Vip</span>Imports</h1>
-        </article>
-        <article>
-            <h3>Entre em Contato</h3>
-            <form>
-                <p>Nome: <input type="text" placeholder="Seu Nome" required></p>
-                <p>Email: <input type= "email" placeholder="seuemail@gmail.com" required></p>
-                <p>Fale Conosco: <textarea cols="30" rows="10" placeholder="Sua Dúvida Aqui"></textarea></p>
-                <button>Enviar</button>
-            </form>
-        </article>
+        <main>
+            <article>
+                <h1><span>Vip</span>Imports</h1>
+            </article>
+            <article class="header-flex-form">
+                <form>
+                    <h3>Entre em Contato</h3>
+                    <p>Nome: <input type="text" placeholder="Seu Nome" required /></p>
+                    <p>
+                        Email:
+                        <input type="email" placeholder="seuemail@gmail.com" required />
+                    </p>
+                    Fale Conosco:
+                    <p>
+                        <textarea cols="30" rows="10" placeholder="Sua Dúvida Aqui"></textarea>
+                    </p>
+                    <button>Enviar</button>
+                </form>
+            </article>
+        </main>
     </header>
+    <h1>Nossos Serviços</h1>
     <section>
-        <h1>Nossos Serviços</h1>
         <article>
-            <div><h3>Frete</h3></div>
-            <div>
+            <div class="primary-section-nossos-servicos">
+                <h3>Frete</h3>
+            </div>
+            <div class="secondary-section-nossos-servicos">
                 <ul>
                     <li>Compras Acima de R$150, grátis no Brasil Todo</li>
                     <li>Frete Grátis na Bahia</li>
@@ -44,8 +56,10 @@
             </div>
         </article>
         <article>
-            <div><h3>Suporte</h3></div>
-            <div>
+            <div class="primary-section-nossos-servicos">
+                <h3>Suporte</h3>
+            </div>
+            <div class="secondary-section-nossos-servicos">
                 <ul>
                     <li>Dúvidas direto pelo whatssap</li>
                     <li>problemas/erros do site, contate-nos</li>
@@ -54,8 +68,10 @@
             </div>
         </article>
         <article>
-            <div><h3>Garantia</h3></div>
-            <div>
+            <div class="primary-section-nossos-servicos">
+                <h3>Garantia</h3>
+            </div>
+            <div class="secondary-section-nossos-servicos">
                 <ul>
                     <li>100¢ confiável</li>
                     <li>Todos os direitos reservados</li>
@@ -63,17 +79,33 @@
             </div>
         </article>
     </section>
-    <footer>
+    <footer id="footer-component">
         <h1>Sobre Nós</h1>
         <p>
-            Somos um  escritório moderno, versátil e dinâmico, cujo objetivo é levar soluções criativas e eficazes aos clientes, tendo como sócios o Dr. Kleber Bissolatti e a Dra. Monique Antonacci, profissionais multidisciplinares com sólida formação e vasta experiência em questões de grande complexidade.
-
-Peliciotti Advocacia é um escritório que preza pela qualidade dos serviços jurídicos, com amplo conhecimento e experiência de atuação. Contamos com uma equipe de profissionais experientes para atender nossos clientes de forma personalizada, contemplando as diversas áreas do Direito. 
-
-Nosso escritório está comprometido em ter os melhores profissionais, advogados, colaboradores e parceiros, empenhados em oferecer seus serviços com grande sensibilidade e comprometimento, com a mais alta competência e comunicação com os clientes.
-
-Praticamos a lei com vocação e paixão pela profissão para responder com excelência à confiança depositada em nós pelos nossos clientes.
+            Somos um escritório moderno, versátil e dinâmico, cujo objetivo é levar
+            soluções criativas e eficazes aos clientes, tendo como sócios o Dr.
+            Kleber Bissolatti e a Dra. Monique Antonacci, profissionais
+            multidisciplinares com sólida formação e vasta experiência em questões
+            de grande complexidade.
+        </p>
+        <p>
+            Peliciotti Advocacia é um escritório que preza pela qualidade dos
+            serviços jurídicos, com amplo conhecimento e experiência de atuação.
+            Contamos com uma equipe de profissionais experientes para atender nossos
+            clientes de forma personalizada, contemplando as diversas áreas do
+            Direito.
+        </p>
+        <p>
+            Nosso escritório está comprometido em ter os melhores profissionais,
+            advogados, colaboradores e parceiros, empenhados em oferecer seus
+            serviços com grande sensibilidade e comprometimento, com a mais alta
+            competência e comunicação com os clientes.
+        </p>
+        <p>
+            Praticamos a lei com vocação e paixão pela profissão para responder com
+            excelência à confiança depositada em nós pelos nossos clientes.
         </p>
     </footer>
 </body>
+
 </html>
