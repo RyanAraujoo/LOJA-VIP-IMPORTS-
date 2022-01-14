@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vip Imports</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="./assets/logo.png">
+    <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -14,32 +14,32 @@
         <section class="effect-white-main-header-image">
             <navbar>
                 <a href="/index.html"><img class="img-header-logo" src="./assets/logo.png" alt="nome-vip-imports"></a>
-                <nav>
+                <nav id="navbar-responsive">
                     <ul>
                         <li><a href="/pages/Produtos.html">Produtos</a></li>
                         <li><a href="#footer-session">Sobre</a></li>
-                        <li><a href="/pages/Contato.html">Contato</a></li>
+                        <li><a onclick="transitClick()" href="#navbar-responsive">Contato</a></li>
+                        <li><a href="#pre-session-h1">Serviços</a></li>
                     </ul>
                 </nav>
+                <button onclick="showNav()" id="button-responsive"><img src="./assets/menu-icon.png" alt=""></button>
             </navbar>
             <main>
                 <article>
                     <h1><span>Vip</span>Imports</h1>
                 </article>
-                <article class="header-flex-form">
-                    <form>
-                        <h3>Entre em Contato</h3>
+                <article id="header-flex-form">
+                    <form action="https://formsubmit.co/contatoryanaraujo@gmail.com" method="POST">
                         <p>Nome: <input type="text" placeholder="Seu Nome" required /></p>
                         <p>
                             Email:
                             <input type="email" placeholder="seuemail@gmail.com" required />
                         </p>
-                        Fale Conosco:
                         <p>
                             <textarea cols="30" rows="10" placeholder="Sua Dúvida Aqui"></textarea>
                         </p>
-                        <button>Enviar</button>
-                    </form>
+                        <button type="submit">Enviar</button>
+                   </form>
                 </article>
             </main>
             <div class="contact-scroll-btn">
@@ -47,7 +47,7 @@
             </div>
         </section>
     </header>
-    <h1 class="pre-session-h1">Nossos Serviços</h1>
+    <h1 id="pre-session-h1">Nossos Serviços</h1>
     <section class="section-our-services">
         <article>
             <div class="primary-section-section-our-services">
@@ -105,6 +105,9 @@
         <p>
             Praticamos a lei com vocação e paixão pela profissão para responder com
             excelência à confiança depositada em nós pelos nossos clientes.
+        </p>
+        <p>
+            @2022 Direitos Autorais - VipImports@copyright
         </p>
     </footer>
 </body>
