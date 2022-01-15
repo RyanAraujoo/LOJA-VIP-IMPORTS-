@@ -61,7 +61,6 @@ box-shadow: 9px -1px 50px -2px #000000;
   border: none;
   cursor: pointer;
   display: none;
-  transition: opacity 5.5s 0s linear;
 }
 /* DOCUMENT.QUITE-END */
 .main-background-image {
@@ -110,19 +109,16 @@ box-shadow: 9px -1px 50px -2px #000000;
     }
     .main-header-background navbar {
       justify-content: space-between;
-      position: relative;
-    }
+  }
     #navbar-responsive {
       display: none;
+      margin-top: 100px; /* garrancho */
+      margin-left: -110px; /* garrancho */
+      top: 0;
       position: absolute;
-      margin-top: 150px; /* garrancho */
-      margin-left: -125px; /* garrancho */
-    }
-    .main-header-background nav ul li {
-      border: solid rgba(255, 255, 255, 0.459) 1px;
+      z-index: 1;
     }
     .main-header-background nav ul li a {
-      color: rgb(255, 255, 255); 
-        
+      color: rgb(255, 255, 255);    
     }
 }
