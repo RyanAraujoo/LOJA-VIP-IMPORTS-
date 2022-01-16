@@ -12,7 +12,7 @@
   }
 }
 :target {
-  scroll-margin-top: .8em;
+  scroll-margin-top: 0.8em;
 }
 
 .main-header-image {
@@ -21,7 +21,7 @@
   background-size: cover;
   background-position-y: -200px;
   font-weight: bolder;
-  height: 100vh; 
+  height: 100vh;
 }
 .effect-white-main-header-image {
   position: absolute;
@@ -30,7 +30,8 @@
   height: 100%;
   top: 0;
 }
-.effect-white-main-header-image  navbar, nav ul {
+.effect-white-main-header-image navbar,
+nav ul {
   display: flex;
   justify-content: flex-start;
   margin: 0 100px;
@@ -38,6 +39,7 @@
 }
 .effect-white-main-header-image navbar {
   padding: 10px;
+  justify-content: space-between;
 }
 #button-responsive img {
   width: 50px;
@@ -51,13 +53,14 @@
 }
 .img-header-logo {
   width: 50px;
-  border-radius: 20px; 
+  border-radius: 20px;
   box-shadow: 9px -1px 50px -2px #000000;
 }
-.effect-white-main-header-image  nav ul li {
+.effect-white-main-header-image nav ul li {
   list-style-type: none;
+  border: solid rgba(255, 255, 255, 0.459) 1px;
 }
-.effect-white-main-header-image  nav ul li a {
+.effect-white-main-header-image nav ul li a {
   margin-left: 15px;
   color: #000000;
   text-decoration: none;
@@ -71,7 +74,7 @@
   align-items: center;
   flex-wrap: wrap;
   color: #ffffff;
-  -webkit-box-shadow: 9px -1px 50px -2px #000000; 
+  -webkit-box-shadow: 9px -1px 50px -2px #000000;
   box-shadow: 9px -1px 50px -2px #000000;
 }
 .effect-white-main-header-image main article h1 {
@@ -79,12 +82,12 @@
   display: block;
   margin: 0 auto;
   color: #000000;
-  font-family: 'MonteCarlo', cursive;
+  font-family: "MonteCarlo", cursive;
 }
 .effect-white-main-header-image article h1 span {
   color: rgb(250, 196, 18);
   font-size: 120px;
-  font-family: 'MonteCarlo', cursive;
+  font-family: "MonteCarlo", cursive;
 }
 #header-flex-form {
   background-color: #000000b7;
@@ -113,11 +116,11 @@
   width: 100%;
   cursor: pointer;
 }
-.contact-scroll-btn{
+.contact-scroll-btn {
   width: 100px;
   height: 100%;
   position: fixed;
-  right:-1;
+  right: -1;
   bottom: 3rem;
 }
 .contact-scroll-btn img {
@@ -126,8 +129,7 @@
   position: absolute;
   bottom: 0;
   border-radius: 20px;
-  -webkit-box-shadow: 9px -1px 50px -2px #000000; 
-box-shadow: 9px -1px 50px -2px #000000;
+  box-shadow: 9px -1px 50px -2px #000000;
 }
 /* DOCUMENT.QUITE */
 #pre-session-h1 {
@@ -176,31 +178,20 @@ box-shadow: 9px -1px 50px -2px #000000;
 }
 
 /* RESPONSIVE */
-@media (max-width:673px) {
+@media (max-width: 673px) {
   .main-header-image {
-      background-position-y: 0px;
+    background-position-y: 0px;
   }
-  .effect-white-main-header-image main article h1 { 
-    margin-left: -40px; /* garrancho */
+  #button-responsive {
+    display: block;
   }
-    #button-responsive {
-        display: block;  
-    }
-    .effect-white-main-header-image navbar {
-      justify-content: space-between;
-      position: relative;
-    }
-    #navbar-responsive {
-      display: none;
-      position: absolute;
-      margin-top: 150px; /* garrancho */
-      margin-left: -125px; /* garrancho */
-    }
-    .effect-white-main-header-image nav ul li {
-      border: solid rgba(255, 255, 255, 0.459) 1px;
-    }
-    .effect-white-main-header-image nav ul li a {
-      color: rgb(0, 0, 0);   
-    }
+  .effect-white-main-header-image navbar {
+    position: relative;
+  }
+  #navbar-responsive {
+    display: none;
+    position: absolute;
+    margin-top: 150px; /* garrancho */
+    margin-left: -125px; /* garrancho */
+  }
 }
-

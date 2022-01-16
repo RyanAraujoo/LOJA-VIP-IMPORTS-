@@ -10,37 +10,37 @@
   font-weight: bolder;
   background-color: #edea28;
 }
-.main-header-background navbar, nav ul{
+.main-header-background navbar,
+nav ul {
   display: flex;
-  justify-content: flex-start;
-  margin: 0 100px;
   align-items: center;
 }
 .main-header-background navbar {
-  padding-top: 25px;
+  padding: 10px;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
 .img-header-logo {
   width: 50px;
   border-radius: 20px;
-  -webkit-box-shadow: 9px -1px 50px -2px #000000; 
-box-shadow: 9px -1px 50px -2px #000000;
+  box-shadow: 9px -1px 50px -2px #000000;
 }
-.main-header-background  nav ul li {
+.main-header-background nav ul li {
   list-style-type: none;
 }
-.main-header-background  nav ul li a {
+.main-header-background nav ul li a {
   margin-left: 15px;
-  color: #000000;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .main-header-background nav ul li a:hover {
   color: rgb(255, 217, 0);
 }
-.contact-scroll-btn{
+.contact-scroll-btn {
   width: 100px;
   height: 100%;
   position: fixed;
-  right:-1;
+  right: -1;
   bottom: 3rem;
 }
 .contact-scroll-btn img {
@@ -49,8 +49,7 @@ box-shadow: 9px -1px 50px -2px #000000;
   position: absolute;
   bottom: 0;
   border-radius: 20px;
-  -webkit-box-shadow: 9px -1px 50px -2px #000000; 
-box-shadow: 9px -1px 50px -2px #000000;
+  box-shadow: 9px -1px 50px -2px #000000;
 }
 #button-responsive img {
   width: 50px;
@@ -84,7 +83,7 @@ box-shadow: 9px -1px 50px -2px #000000;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-} 
+}
 .main-white-background-visible article {
   padding: 25px;
   width: 300px;
@@ -103,22 +102,15 @@ box-shadow: 9px -1px 50px -2px #000000;
   height: 80px;
 }
 
-@media (max-width:673px) {
-    #button-responsive {
-        display: block;  
-    }
-    .main-header-background navbar {
-      justify-content: space-between;
+@media (max-width: 673px) {
+  #button-responsive {
+    display: block;
   }
-    #navbar-responsive {
-      display: none;
-      margin-top: 100px; /* garrancho */
-      margin-left: -110px; /* garrancho */
-      top: 0;
-      position: absolute;
-      z-index: 1;
-    }
-    .main-header-background nav ul li a {
-      color: rgb(255, 255, 255);    
-    }
+  #navbar-responsive {
+    display: none;
+    margin-top: 100px; /* garrancho */
+    margin-left: -30px; /* garrancho */
+    position: absolute;
+    z-index: 1;
+  }
 }
