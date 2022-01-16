@@ -192,6 +192,6 @@ nav ul {
     display: none;
     position: absolute;
     margin-top: 150px; /* garrancho */
-    margin-left: -125px; /* garrancho */
+    margin-left: -150px; /* garrancho */
   }
 }
