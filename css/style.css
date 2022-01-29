@@ -158,20 +158,29 @@
 #footer-session {
   background-color: rgb(255, 238, 0);
 }
-#footer-session > h1 {
+.footer-primary-session > h1 {
   padding: 50px;
   text-align: center;
 }
-#footer-session p {
+.footer-primary-session p {
   line-height: 25px;
   letter-spacing: 1px;
-  padding-top: 10px;
   padding-right: 50px;
   padding-left: 50px;
   padding-bottom: 25px;
   text-align: center;
 }
-
+.footer-secondary-session figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-secondary-session figure img {
+    width: 50px;
+    height: auto;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
 /* RESPONSIVE */
 @media (max-width: 673px) {
   .main-header-image {
