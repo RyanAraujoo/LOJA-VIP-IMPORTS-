@@ -8,7 +8,7 @@
 }
 .main-header-background {
   font-weight: bolder;
-  background-color: #edea28;
+  background-color: rgb(255, 238, 0);
 }
 .main-header-background navbar,
 nav ul {
@@ -30,7 +30,7 @@ nav ul {
 }
 .main-header-background nav ul li a {
   margin-left: 15px;
-  color: rgb(255, 255, 255);
+  color: rgb(241, 208, 19);
   text-decoration: none;
 }
 .main-header-background nav ul li a:hover {
@@ -62,21 +62,15 @@ nav ul {
   display: none;
 }
 /* DOCUMENT.QUITE-END */
-.main-background-image {
-  background-image: url(../assets/imagem\ principal.jpg);
-  background-size: auto;
-  background-position-y: -200px;
-  position: relative;
-  height: 200vh;
+.main-background {
+  background: rgb(249,255,0);
+  background: linear-gradient(0deg, rgba(249,255,0,1) 0%, rgba(255,209,0,1) 100%);
 }
-.black-effect-in-main-background-image {
-  position: absolute;
+ .black-effect-in-main-background {
   background-color: rgba(0, 0, 0, 0.795);
-  width: 100%;
-  top: 0;
 }
 .main-white-background-visible {
-  margin: 50px auto;
+  margin: 0px auto;
   background-color: white;
   width: 80vw;
   padding: 50px;
